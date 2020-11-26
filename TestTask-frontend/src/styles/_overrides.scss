@@ -1,0 +1,29 @@
+.nav-item {
+  .nav-link {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+
+    &.active {
+      // color: #fff;
+      // background: rgba(255, 255, 255, .23);
+      // opacity: 1;
+      color: #e84e68 !important;
+      opacity: 1;
+      background: #fff !important;
+      border-radius: 10px;
+    }
+  }
+}
+
+.sidebar .nav a {
+  transition: all 150ms ease-in;
+}
+
+.card-header {
+  text-transform: uppercase;
+}
+
+.badge:empty {
+  display: inline-block;
+}
